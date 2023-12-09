@@ -74,3 +74,9 @@
     bottom: 80px;
     right: 50px;
 }
+
+.music_one{
+    position: fixed;
+    top: 240px;
+    right: 500px;
+}
