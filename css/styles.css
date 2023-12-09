@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "index.css";
+
+body {
+    background-image : url('photo/background_photo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Dongle', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
