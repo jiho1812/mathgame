@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "index.css";
+@import "star.css";
 
 body {
     background-image : url('photo/background_photo.png');

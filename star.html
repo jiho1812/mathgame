@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>수학으로 음악만들기</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <i class="fa-solid fa-star one" style="color: #ffffff; font-size: 60px"></i>
+    <i
+      class="fa-regular fa-star two"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+    <i
+      class="fa-solid fa-star three"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+    <i
+      class="fa-solid fa-star four"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+    <i
+      class="fa-solid fa-star five"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+    <i class="fa-solid fa-star six" style="color: #ffffff; font-size: 60px"></i>
+    <i
+      class="fa-solid fa-star seven"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+    <i
+      class="fa-regular fa-star eight"
+      style="color: #ffffff; font-size: 60px"
+    ></i>
+  
+
+    <div class="main">
+      <div class="mainboard">
+        <div>
+            <h1>반짝반짝 작은별</h1>
+        </div>
+        <div class="sheet">
+            <div class="sheet_box" id="1"><span>1</span></div>
+            <div class="sheet_box colored" id="2"><span>?</span></div>
+            <div class="sheet_box" id="3"><span>5</span></div>
+            <div class="sheet_box" id="4"><span>5</span></div>
+            <div class="sheet_box" id="5"><span>6</span></div>
+            <div class="sheet_box" id="6"><span>6</span></div>
+            <div class="sheet_box colored" id="7"><span>?</span></div>
+            <div class="sheet_box" id="8"><span>0</span></div>
+        </div>
+        <div class="sheet">
+            <div class="sheet_box colored" id="9"><span>?</span></div>
+            <div class="sheet_box" id="10"><span>4</span></div>
+            <div class="sheet_box" id="11"><span>3</span></div>
+            <div class="sheet_box" id="12"><span>3</span></div>
+            <div class="sheet_box" id="13"><span>2</span></div>
+            <div class="sheet_box colored" id="14"><span>?</span></div>
+            <div class="sheet_box" id="15"><span>1</span></div>
+            <div class="sheet_box" id="16"><span>0</span></div>
+        </div>
+        <div class="sheet">
+            <div class="sheet_box" id="17"><span>5</span></div>
+            <div class="sheet_box" id="18"><span>5</span></div>
+            <div class="sheet_box" id="19"><span>4</span></div>
+            <div class="sheet_box colored" id="20"><span>?</span></div>
+            <div class="sheet_box" id="21"><span>3</span></div>
+            <div class="sheet_box colored" id="22"><span>?</span></div>
+            <div class="sheet_box" id="23"><span>2</span></div>
+            <div class="sheet_box" id="24"><span>0</span></div>
+        </div>
+        <div class="sheet">
+            <div class="sheet_box" id="25"><span>5</span></div>
+            <div class="sheet_box colored" id="26"><span>?</span></div>
+            <div class="sheet_box colored" id="27"><span>?</span></div>
+            <div class="sheet_box" id="28"><span>4</span></div>
+            <div class="sheet_box" id="29"><span>3</span></div>
+            <div class="sheet_box" id="30"><span>3</span></div>
+            <div class="sheet_box" id="31"><span>2</span></div>
+            <div class="sheet_box" id="32"><span>0</span></div>
+        </div>
+      </div>
+      <div class="hidden question" id="question1">
+        <div>
+          <div>2-1=<input class="answer" type="number" id="answer1"></div>
+        </div>
+      </div>
+      <div class="hidden question" id="question2">
+        <div>
+          <div>5+2=</div>
+        </div>
+      </div>
+    </div>
+    <audio id="c">
+      <source src="piano/FX_piano01.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="d">
+      <source src="piano/FX_piano03.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="e">
+      <source src="piano/FX_piano05.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="f">
+      <source src="piano/FX_piano06.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="g">
+      <source src="piano/FX_piano08.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="a">
+      <source src="piano/FX_piano10.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="b">
+      <source src="piano/FX_piano12.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <script
+      src="https://kit.fontawesome.com/33d2882159.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
