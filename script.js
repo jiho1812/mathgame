@@ -320,6 +320,7 @@ function submitAnswer27(){
 }
 
 function clickPlayButton(){
+    playButton.classList.toggle("hidden");
     for(step=1; step<33; step++){
         const stringNumber = String(step);
         const idid=document.getElementById(stringNumber);
