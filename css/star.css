@@ -71,6 +71,15 @@
     border-radius: 30px;
 }
 
+.playButton i{
+    position: fixed;
+    font-size: 50px;
+    right : 300px;
+    bottom :100px;
+    color: #212B61;
+    cursor: pointer;
+}
+
 .hidden{
     display: none;
 }
@@ -96,4 +105,5 @@
     border-radius: 15px;
     font-size: 30px;
 }
+
 
