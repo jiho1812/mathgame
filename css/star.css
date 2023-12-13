@@ -106,4 +106,12 @@
     font-size: 30px;
 }
 
+.nextButton a i{
+    position: fixed;
+    font-size: 50px;
+    right : 300px;
+    bottom :100px;
+    color: #212B61;
+    cursor: pointer;
+}
 

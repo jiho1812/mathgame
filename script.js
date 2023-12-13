@@ -26,6 +26,7 @@ const right = document.querySelector(".right");
 const wrong = document.querySelector(".wrong");
 let rightCount=0;
 const playButton=document.querySelector(".playButton");
+const nextButton = document.querySelector(".nextButton");
 
 const c = document.getElementById("c");
 const d = document.getElementById("d");
@@ -329,14 +330,17 @@ function clickPlayButton(){
         const playSound = soundAndNumber[ididSpan.textContent];
         setTimeout(function() {
         if(playSound==null){
-            console.log("hihi");
+            console.log("한박자 쉬기");
         }else{
             playSound.play();
         }
         
     }, 1000*step);
-    
     }
+    setTimeout(function() {
+        // 실행하고자 하는 코드
+        nextButton.classList.toggle("hidden");
+    }, 33000);
 }
 
 
